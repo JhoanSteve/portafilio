@@ -1177,6 +1177,10 @@ a, a:hover, a:focus, a:active {
   .about-me .about-image {
     margin-bottom: 3rem;
   }
+  .item > .img-responsive {
+    min-width: 300px;
+    min-height: 300px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1192,6 +1196,10 @@ a, a:hover, a:focus, a:active {
   }
   .about-me .about-image {
     margin-bottom: 3rem;
+  }
+  .item > .img-responsive {
+    width: 235;
+    height: 235;
   }
 }
 
@@ -1214,6 +1222,10 @@ a, a:hover, a:focus, a:active {
   .contact .contact-form {
     margin-bottom: 70px;
   }
+  .item > .img-responsive {
+    min-width: 310px;
+    min-height: 310px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -1222,6 +1234,17 @@ a, a:hover, a:focus, a:active {
   }
   .testimonials .testimonial-box {
     width: 100%;
+  }
+  .item > .img-responsive {
+    min-width: 310px;
+    min-height: 310px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .item > .img-responsive {
+    min-width: 310px;
+    min-height: 310px;
   }
 }
 /*# sourceMappingURL=style.css.map */
