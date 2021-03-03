@@ -242,6 +242,64 @@ a, a:hover, a:focus, a:active {
   font-family: 'Montserrat', sans-serif;
 }
 
+@media (max-width: 575.98px) {
+  .btn-menu {
+    width: 40px;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .btn-menu > .menu-open {
+    display: block;
+  }
+  .btn-menu > .menu-close {
+    display: none;
+  }
+  .btn-menu.is-open > .menu-open {
+    display: none;
+  }
+  .btn-menu.is-open > .menu-close {
+    display: block;
+  }
+  .navbar-links.is-open {
+    width: 80%;
+    display: block !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .btn-menu {
+    width: 40px;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .btn-menu > .menu-open {
+    display: block;
+  }
+  .btn-menu > .menu-close {
+    display: none;
+  }
+  .btn-menu.is-open > .menu-open {
+    display: none;
+  }
+  .btn-menu.is-open > .menu-close {
+    display: block;
+  }
+  .navbar-links.is-open {
+    width: 80%;
+    display: block !important;
+  }
+}
+
 @media (min-width: 768px) {
   .navbar-nav > li {
     float: left;
